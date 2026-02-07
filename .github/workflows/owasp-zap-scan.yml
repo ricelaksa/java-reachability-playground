@@ -14,4 +14,5 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.14.0
         with:
-          target: 'https://www.zaproxy.org'
+          target: 'http://testphp.vulnweb.com/'
+
